@@ -1,0 +1,153 @@
+/* NAV BAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: right;
+    font-family: "Space Mono", monospace;
+    font-size: 20;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #0cc81e;
+  }
+
+  .linkedin{
+    float: left;
+  }
+
+  .github{
+    float: left;
+    position: relative;
+    left: 20px;
+  }
+/* NAV BAR */
+
+.intro{
+    padding-top: 300;
+    color: whitesmoke;
+    width: 1700;
+    justify-content: ce;
+}
+
+.name{
+    font-size: 140px;
+    margin-left: 600;
+    margin-top: 0;
+}
+
+.name2{
+    font-size: 110px;
+    /* margin-top: 0; */
+    text-align: center;
+    color: whitesmoke;
+}
+
+.hello{
+    margin-left: 600;
+}
+
+.description{
+    margin-left: 600;
+    /* margin-top: 0%; */
+    font-size: 25;
+    text-wrap: pretty;
+    font-family: "Space Mono", monospace;
+    color: whitesmoke
+
+}
+
+.bio{
+    margin-left: 800;
+    width: 1600;
+    /* margin-top: 0%; */
+    font-size: 25;
+    text-wrap: wrap;
+    font-family: "Space Mono", monospace;
+    color: whitesmoke
+}
+
+.emoji{
+    position: relative;
+    bottom: 40%;
+    margin-top: 80;
+    /* left: 1000; */
+}
+
+.image{
+  width: 400px;
+  position: relative;
+  bottom: 40%;
+  left: 1700;
+}
+ 
+body {
+    background-color: #111111;
+}
+
+.aboutt{
+  font-size: 30px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Space Mono", monospace;
+  margin-top: 0;
+}
+
+.portfoliot{
+  font-size: 100px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Space Mono", monospace;
+}
+
+.accordion {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: xx-large;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+ 
+  .active, .accordion:hover {
+    background-color: #0cc81e;
+  }
+  
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    /* width: 500; */
+  }
+
+  .accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; 
+  }
