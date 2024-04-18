@@ -151,3 +151,12 @@ body {
   .active:after {
     content: "\2796"; 
   }
+
+  .footer {
+    text-align: center;
+    padding: 2px;
+    position: relative;
+    top: 80%;
+    background-color: black;
+    color: #414a4c;
+  }
